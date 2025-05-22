@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
+  <title>Tailwind Website</title>
+</head>
+
+<body>
+  <section class="bg-gradient-to-r from-green-800 to-green-900 p-8">
+    <nav class="w-[85%] m-auto">
+      <div class="bg-white flex justify-between items-center py-5 px-10 rounded-full">
+        <h4 class="text-3xl text-[#0B5D1E] font-semibold">CoolQuest</h4>
+
+        <ul class=" gap-6 font-semibold text-xl sm:hidden md:flex">
+          <li>About Us</li>
+          <li>Services</li>
+          <li> Past Work</li>
+          <li>Reviews</li>
+        </ul>
+
+        <button class="bg-green-800 rounded-full text-white py-3 px-4">
+          Get Free Quote
+        </button>
+      </div>
+    </nav>
+
+    <header class="text-white min-h-screen px-10 py-10">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+        <div class="md:w-1/2 space-y-6">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+            Reliable HVAC for <br />
+            Every Season
+          </h1>
+
+          <ul class="space-y-3">
+            <li class="flex items-center gap-2">
+              <img src="https://img.icons8.com/ios-filled/24/ffffff/checked.png" alt="" />
+              Certified & Experienced Technicians
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="https://img.icons8.com/ios-filled/24/ffffff/speed.png" alt="" />
+              Fast, Reliable Service
+            </li>
+            <li class="flex items-center gap-2">
+              <img src="https://img.icons8.com/ios-filled/24/ffffff/money.png" alt="" />
+              Transparent, Affordable Pricing
+            </li>
+          </ul>
+
+          <form class="bg-white p-4 rounded-lg grid grid-cols-2 gap-4 text-black max-w-md">
+            <input type="text" placeholder="Name" class="border p-2 rounded" />
+            <input type="text" placeholder="Phone" class="border p-2 rounded" />
+            <select class="col-span-1 border p-2 rounded">
+              <option>Service</option>
+              <option>Repair</option>
+              <option>Install</option>
+            </select>
+            <button type="submit" class="col-span-1 bg-[#0B5D1E] text-white rounded p-2 font-semibold">
+              Submit
+            </button>
+          </form>
+
+          <div>Certified Installer</div>
+          <div class="flex gap-6 items-center">
+            <img src="./images/layer102.png" class="h-5" />
+            <img src="./images/Group 1.png" class="h-5" />
+            <img src="./images/Group 2.png" class="h-5" />
+          </div>
+        </div>
+
+        <div>
+          <div class="relative bg-white rounded-tl-full w-[91%]">
+            <img class="z-10" src="./images/hero model.png" alt="" />
+            <img class="absolute bottom-0 left-10" src="./images/review.png" alt="" />
+            <img class="absolute top-30 right-6" src="./images/License no.png" alt="" />
+            <img class="absolute top-8 -left-5" src="./images/warranty.png" alt="" />
+          </div>
+
+          <div class="flex gap-2 pt-2 w-full">
+            <img src="./images/past work one.png" alt="" />
+            <img src="./images/past work two.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <section class="bg-white py-16 px-6">
+    <div class="w-[85%] m-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        Trusted by Families Like Yours
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-lg p-6 rounded-3xl flex flex-col items-center text-center">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-16 h-16 rounded-full mb-4" />
+          <h4 class="font-semibold text-lg">Mason Carter</h4>
+          <div class="text-yellow-400 my-2">⭐⭐⭐⭐⭐</div>
+          <p class="text-gray-600 text-sm mb-4">
+            “Super professional service, quick installation, and everything
+            works perfectly. Highly recommend!”
+          </p>
+          <div class="flex items-center gap-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="w-4 h-4" />
+            <span class="text-sm text-gray-500">Reviewed on Google</span>
+          </div>
+        </div>
+
+        <div class="bg-[#0B5D1E] text-white shadow-lg p-6 rounded-3xl flex flex-col items-center text-center">
+          <img src="./images/Frame.png" class="w-16 h-16 rounded-full mb-4" />
+          <h4 class="font-semibold text-lg">Chloe Anderson</h4>
+          <div class="text-yellow-400 my-2">⭐⭐⭐⭐⭐</div>
+          <p class="text-sm mb-4">
+            “Very happy with their work! The team was efficient and the new
+            system runs great.”
+          </p>
+          <div class="flex items-center gap-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="w-4 h-4" />
+            <span class="text-sm">Reviewed on Google</span>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-lg p-6 rounded-3xl flex flex-col items-center text-center">
+          <img src="./images/Frame (1).png" class="w-16 h-16 rounded-full mb-4" />
+          <h4 class="font-semibold text-lg">Skylar Bennett</h4>
+          <div class="text-yellow-400 my-2">⭐⭐⭐⭐⭐</div>
+          <p class="text-gray-600 text-sm mb-4">
+            “Great experience from start to finish. Honest pricing and
+            top-notch service!”
+          </p>
+          <div class="flex items-center gap-2">
+            <img src="" class="w-4 h-4" />
+            <span class="text-sm text-gray-500">Reviewed on Google</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- View More Button -->
+      <div class="mt-10">
+        <button class="bg-[#0B5D1E] text-white px-6 py-2 rounded-md font-semibold hover:bg-green-900 transition">
+          View more
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-16 px-6">
+    <div class="w-[85%] m-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+        Your Trusted HVAC Experts
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 w-[50%] m-auto pb-10">
+        <div class="flex flex-col items-center">
+          <img src="./images/image 2.png" alt="ISO 9001" class=" mb-4" />
+          <h4 class="font-semibold">ISO 9001 Certified</h4>
+          <p class="text-gray-500 text-sm">
+            Quality Management for HVAC Excellence
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img src="./images/image 3.png" alt="ISO 14001" class=" mb-4" />
+          <h4 class="font-semibold">ISO 14001 Certification</h4>
+          <p class="text-gray-500 text-sm">Eco-Friendly HVAC Solutions</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-5 w-[70%] m-auto">
+
+        <div class="flex flex-col items-center">
+          <img src="./images/Layer_1.png" alt="EPA Certified" class=" mb-4" />
+          <h4 class="font-semibold">EPA Certified</h4>
+        </div>
+
+
+        <div class="flex flex-col items-center">
+          <img src="./images/Logo.png" alt="BBB Accredited" class=" mb-4" />
+          <h4 class="font-semibold">BBB Accredited</h4>
+        </div>
+
+
+        <div class="flex flex-col items-center">
+          <img src="./images/Vector.png" alt="NATE Certified" class=" mb-4" />
+          <h4 class="font-semibold">NATE Certified</h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class=" bg-green-50 flex items-center justify-center py-20  px-4 sm:px-6 lg:px-8">
+    <div class="w-[85%] m-auto">
+      <h2 class="text-4xl font-bold text-gray-900 text-center mb-16">
+        The Benefits of Choosing Us
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6 text-center">
+          <div class="flex justify-center mb-4">
+            <div class="rounded-full bg-green-100 p-4">
+              <svg class="h-12 w-12 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            24/7 Emergency Services
+          </h3>
+          <p class="text-gray-600">
+            Fast and reliable emergency HVAC services available 24/7.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6 text-center">
+          <div class="flex justify-center mb-4">
+            <div class="rounded-full bg-green-100 p-4">
+              <svg class="h-12 w-12 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17 20v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2m3-2v-3a2 2 0 012-2h4a2 2 0 012 2v3m-6-8a4 4 0 11-8 0 4 4 0 018 0zm6 0a4 4 0 11-8 0 4 4 0 018 0z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            Experienced Professionals
+          </h3>
+          <p class="text-gray-600">
+            Highly trained and certified HVAC experts with years of industry experience.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6 text-center">
+          <div class="flex justify-center mb-4">
+            <div class="rounded-full bg-green-100 p-4">
+              <svg class="h-12 w-12 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.592 1L21 6m-4 6h.01M5 12h.01M12 21a9 9 0 110-18 9 9 0 010 18z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            Affordable Pricing
+          </h3>
+          <p class="text-gray-600">
+            Transparent and competitive pricing with no hidden fees.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=" bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+    <div class="w-[80%] m-auto mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+            Past Work That Speaks for Itself
+          </h2>
+          <p class="mt-4  text-gray-600">
+            Explore some of the outstanding HVAC projects we've proudly
+            completed. Every image reflects our unwavering commitment to
+            quality, reliability, and expert craftsmanship – from flawless
+            installations to seamless maintenance. These are just a few examples
+            of the exceptional results we deliver for homeowners like you.
+          </p>
+          <div class="mt-8">
+            <a href="#"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-700 hover:bg-green-800">
+              Explore Our Work
+            </a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border-2 border-green-700">
+            <div class="relative">
+              <img class="md:w-full h-48 object-cover" src="./images/Frame 65.png" alt="Efficient Home Heating Upgrade">
+              <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+              <div class="absolute bottom-0 left-0 p-4">
+                <h3 class="text-xl font-bold text-white">Efficient Home Heating Upgrade</h3>
+                <p class="mt-1 text-sm text-gray-200">
+                  Installed a high-efficiency furnace system, reducing energy costs
+                  and improving comfort for the homeowners.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border-2 border-green-700">
+            <div class="relative">
+              <img class="md:w-full h-48 object-cover" src="./images/Frame 65 (1).png"
+                alt="Complete HVAC System Installation">
+              <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+              <div class="absolute bottom-0 left-0 p-4">
+                <h3 class="text-xl font-bold text-white">Complete HVAC System Installation</h3>
+                <p class="mt-1 text-sm text-gray-200">
+                  Designed and installed a full heating and cooling solution for a newly
+                  built modern home.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md overflow-hidden border-2 border-green-700">
+            <div class="relative">
+              <img class="md:w-full h-48 object-cover" src="./images/Frame 65 (2).png"
+                alt="Emergency AC Repair & Restoration">
+              <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+              <div class="absolute bottom-0 left-0 p-4">
+                <h3 class="text-xl font-bold text-white">Emergency AC Repair & Restoration</h3>
+                <p class="mt-1 text-sm text-gray-200">
+                  Rapid response service that restored cooling during peak summer
+                  heat, ensuring family comfort and safety.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+    <div class="w-[80%] m-auto">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-12 sm:text-4xl">
+        Save Big on Your Next HVAC Project
+      </h2>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
+        <img class="" src="./images/Frame 74.png" alt="">
+
+        <div class="rounded-lg shadow-xl overflow-hidden">
+          <img class="w-full h-[350px] object-cover object-center" src="./images/Frame 75.png" alt="HVAC Installation">
+        </div>
+      </div>
+
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-12 sm:text-4xl">
+        How We Bring Comfort to Your Home
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-[#EBFFF1]  p-1 text-center flex flex-col items-center">
+          <div class="mb-4">
+            <img class="h-full w-full" src="./images/Frame 75.png" alt="Calendar Icon">
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            Schedule a Consultation
+          </h3>
+          <p class="text-gray-600">
+            Contact us to book your free consultation with our HVAC experts.
+          </p>
+        </div>
+
+        <div class="bg-[#EBFFF1]  p-1 text-center flex flex-col items-center">
+          <div class="mb-4">
+            <img class="h-full w-auto" src="./images/Frame 75.png" alt="Quote Icon">
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            Get a Custom Quote
+          </h3>
+          <p class="text-gray-600">
+            We assess your needs and provide a clear, no-obligation quote.
+          </p>
+        </div>
+
+        <div class="bg-[#EBFFF1] p-1 text-center flex flex-col items-center">
+          <div class="mb-4">
+            <img class="h-full w-auto" src="./images/Frame 75.png" alt="Tools Icon">
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            Professional Installation
+          </h3>
+          <p class="text-gray-600">
+            Our certified team installs your system with precision and care.
+          </p>
+        </div>
+
+        <div class="bg-whitep-1 text-center flex flex-col items-center">
+          <div class="mb-4">
+            <img class="h-full w-auto" src="./images/Frame 75.png" alt="Home Icon">
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            Enjoy Total Comfort
+          </h3>
+          <p class="text-gray-600">
+            Experience efficient heating and cooling all year round.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+    <div class="w-[85%] m-auto">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-12 sm:text-4xl">
+        Our HVAC Services
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+        <div class=" rounded-lg  overflow-hidden">
+          <img class="w-full h-48 object-cover rounded-lg" src="./images/Frame 91.png"
+            alt="Air Conditioner Installation">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              Air Conditioner Installation
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Stay cool all summer with fast, professional AC installations built to last.
+            </p>
+            <a href="#"
+              class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-700 hover:bg-green-800">
+              Explore Service
+            </a>
+          </div>
+        </div>
+
+        <div class=" rounded-lg  overflow-hidden">
+          <img class="w-full h-48 object-cover rounded-lg" src="./images/Frame 91 (1).png" alt="Heating System Repair">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              Heating System Repair
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Keep your home warm and safe with expert repair services for any heating system.
+            </p>
+            <a href="#"
+              class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-700 hover:bg-green-800">
+              Explore Service
+            </a>
+          </div>
+        </div>
+
+        <div class=" rounded-lg  overflow-hidden">
+          <img class="w-full h-48 object-cover rounded-lg" src="./images/Frame 91 (2).png"
+            alt="Indoor Air Quality Solutions">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">
+              Indoor Air Quality Solutions
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Breathe cleaner, healthier air with advanced filtration and ventilation systems.
+            </p>
+            <a href="#"
+              class="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-700 hover:bg-green-800">
+              Explore Service
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-12 sm:text-4xl">
+        Meet the People Behind the Work
+      </h2>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div class="rounded-lg shadow-md overflow-hidden">
+          <img class="w-full h-auto object-cover" src="./images/Frame 102.png" alt="HVAC Team">
+        </div>
+
+        <div class="space-y-6 flex gap-5">
+          <div class="bg-white rounded-lg shadow-md p-6 border-1 border-green-800 h-[286px]">
+            <p class="text-gray-700  mb-4">
+              "My mission is simple – to give every homeowner reliable,
+              efficient comfort they can count on, every day."
+            </p>
+            <p class="font-semibold text-green-800 text-xl">
+              James Carter
+            </p>
+            <p class="text-sm text-gray-600">
+              Founder & Senior HVAC Specialist
+            </p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6 border-1 border-green-800 h-[286px]">
+            <p class="text-gray-700  mb-4">
+              "I'm here to ensure every project
+              runs smoothly and every customer feels heard, respected,
+              and happy with our work."
+            </p>
+            <p class="font-semibold text-green-800 text-xl">
+              Michael Torres
+            </p>
+            <p class="text-sm text-gray-600">
+              Operations Manager & Customer Care Lead
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+    <div class="w-[85%] m-auto">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-12 sm:text-4xl">
+        HVAC Insights
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img class="w-full h-48 object-cover" src="./images/Frame 110.png" alt="AC Unit on a wall">
+          <div class="p-6">
+            <p class="text-sm text-gray-500 mb-2">25 Apr 2025</p>
+            <h3 class="text-2xl  text-gray-900 mb-4 ">
+              5 Signs Your AC Needs Maintenance
+            </h3>
+            <hr>
+            <a href="#" class=" font-medium">Read More</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img class="w-full h-48 object-cover" src="./images/Frame 110 (1).png" alt="Cozy bedroom in winter">
+          <div class="p-6">
+            <p class="text-sm text-gray-500 mb-2">22 Apr 2025</p>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">
+              How to Save on Heating Bills This Winter
+            </h3>
+            <hr>
+            <a href="#" class=" font-medium">Read More</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <img class="w-full h-48 object-cover" src="./images/Frame 110 (2).png" alt="Comfortable living room">
+          <div class="p-6">
+            <p class="text-sm text-gray-500 mb-2">22 Apr 2025</p>
+            <h3 class="text-2xl font-semibold text-gray-900 mb-4">
+              The Best Thermostat Settings for Comfort & Efficiency
+            </h3>
+            <hr>
+            <a href="#" class=" font-medium">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="#"
+          class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-800 hover:bg-green-800">
+          Explore All Articles
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+    <div class="w-[85%] m-auto text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-12 sm:text-4xl">
+        Areas We Serve
+      </h2>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Los Angeles
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          San Diego
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          San Jose
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          San Francisco
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Sacramento
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Phoenix
+        </span>
+
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Las Vegas
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Denver
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Kansas City
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Charlotte
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          San Antonio
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Atlanta
+        </span>
+
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Jacksonville
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Indianapolis
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Raleigh
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Chicago
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Tampa
+        </span>
+        <span
+          class="inline-flex items-center px-6 py-3 rounded-full border border-green-700 bg-white text-green-800 text-base font-medium">
+          <svg class="h-5 w-5 text-green-700 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z">
+            </path>
+          </svg>
+          Orlando
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-green-900 text-green-800 py-12">
+    <div class="w-[85%] m-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-lg p-6 flex flex-col md:flex-row items-center justify-between mb-12">
+        <p class="text-2xl font-semibold mb-4 md:mb-0">
+          Let us help you choose the perfect system for your home.
+        </p>
+        <a href="#"
+          class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-700 hover:bg-gray-100">
+          Free HVAC Estimate
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
+        <div>
+          <h3 class="text-3xl font-bold mb-4 text-white">CoolQuest</h3>
+          <p class="text-green-200 text-sm">
+            Trusted local HVAC experts delivering reliable heating and cooling solutions.
+          </p>
+          <div class="flex space-x-4 mt-6 text-white">
+            <a href="#" class="text-green-200 hover:text-white">
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#" class="text-green-200 hover:text-white">
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M22 4.01c-.885.392-1.83.655-2.825.775 1.01-.606 1.78-1.56 2.14-2.704-.95.564-2.005.974-3.12 1.195-.89-.955-2.178-1.555-3.594-1.555-2.724 0-4.929 2.205-4.929 4.929 0 .385.04.76.115 1.125-4.095-.205-7.745-2.165-10.185-5.14-.425.735-.67 1.59-.67 2.495 0 1.71.87 3.215 2.19 4.09-.81-.025-1.57-.245-2.24-.625v.06c0 2.385 1.695 4.375 3.94 4.835-.41.11-.845.16-1.29.16-.31 0-.615-.03-.915-.085.625 1.95 2.435 3.375 4.58 3.415-1.68.99-3.795 1.58-6.115 1.58-.395 0-.79-.025-1.185-.07.975 1.6 2.685 2.695 4.505 2.695 5.4 0 8.365-4.465 8.365-8.365 0-.125-.005-.25-.01-.375.57-.405 1.07-1.15 1.47-1.99z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#" class="text-white hover:text-white">
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3s0-1.764 0-4.66c0-1.243-.012-2.748-1.676-2.748-1.676 0-1.924 1.309-1.924 2.664v4.744h-3v-11h3v1.616h.044c.42-.782 1.44-1.616 3.23-1.616 3.46 0 4.106 2.277 4.106 6.592v7.748z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-bold mb-4 text-white">Quick links</h3>
+          <ul class="space-y-2 text-white text-sm">
+            <li><a href="#" class="hover:text-white">Home</a></li>
+            <li><a href="#" class="hover:text-white">Services</a></li>
+            <li><a href="#" class="hover:text-white">About</a></li>
+            <li><a href="#" class="hover:text-white">Contact</a></li>
+            <li><a href="#" class="hover:text-white">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-bold mb-4"></h3>
+          <ul class="space-y-4 text-white text-sm">
+            <li class="flex items-center">
+              <svg class="h-5 w-5 text-white mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2H5a2 2 0 01-2-2V5z">
+                </path>
+              </svg>
+              (555) 123-4567
+            </li>
+            <li class="flex items-center">
+              <svg class="h-5 w-5 text-white0 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                </path>
+              </svg>
+              mail.coolquest.com
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-white mr-3 flex-shrink-0" fill="none" stroke="currentColor"
+                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0L6.343 16.657a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              1234 Maplewood Drive, Houston, TX 77002, United States
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-green-700 mt-12 pt-8 text-center text-green-200 text-sm">
+        <p>&copy; 2025 all rights resereved</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
